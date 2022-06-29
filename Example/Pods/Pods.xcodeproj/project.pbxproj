@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C6E429BBDB9E84502C8923856FC151D /* BDMirrorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C24A838EBD4F3383A525B207AA68B4 /* BDMirrorLayer.swift */; };
+		4C6E429BBDB9E84502C8923856FC151D /* BDMirrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C24A838EBD4F3383A525B207AA68B4 /* BDMirrorView.swift */; };
 		51DBB522BC48FA1B43208EC92DC2B6AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		63703C68818FEC0324234A6C2D916E2D /* Pods-BDMirrorLayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A2F13F88A03461ED68DD26AA9463C3 /* Pods-BDMirrorLayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69FA4CDD97CD64932A25ED07D1DAD4C2 /* BDMirrorLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7A451DA15A7CE803BF88BDA173D851 /* BDMirrorLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,7 +40,7 @@
 		0075CAE661833B9947C188FEE19DF5C2 /* BDMirrorLayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BDMirrorLayer-Info.plist"; sourceTree = "<group>"; };
 		09DB6CDCCCC21A027239551781FFFE07 /* BDMirrorLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDMirrorLayer-dummy.m"; sourceTree = "<group>"; };
 		10C7820C787330844BEEAAE1D210E576 /* Pods-BDMirrorLayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BDMirrorLayer_Example"; path = Pods_BDMirrorLayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37D66ACF6A42DAAC2998FEBE082F1837 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		37D66ACF6A42DAAC2998FEBE082F1837 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		38381F2AD2763760F4DA3BE9BDEB2C59 /* BDMirrorLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDMirrorLayer.debug.xcconfig; sourceTree = "<group>"; };
 		39CCBAE8A7AB88465F67634B8CF4CF92 /* BDMirrorLayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BDMirrorLayer; path = BDMirrorLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FA5B6BF8774344A6CC49785D4656CE /* Pods-BDMirrorLayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDMirrorLayer_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -57,16 +57,16 @@
 		955D52D5FE49F6BA02D3CC2A542EF4A2 /* Pods-BDMirrorLayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BDMirrorLayer_Tests.modulemap"; sourceTree = "<group>"; };
 		9AA4790D7EA2A97C9C86443954FBD715 /* Pods-BDMirrorLayer_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BDMirrorLayer_Tests"; path = Pods_BDMirrorLayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C30849C664074F273D8219624E3DEE5 /* Pods-BDMirrorLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDMirrorLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F1F4FED76A7B32A5B1E2D191F829095 /* Pods-BDMirrorLayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDMirrorLayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A25CE2791673E163AE9B7A456E24E6EC /* BDMirrorLayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BDMirrorLayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25CE2791673E163AE9B7A456E24E6EC /* BDMirrorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BDMirrorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B0D6FDBACEAE7A0B747E2D3890873120 /* Pods-BDMirrorLayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDMirrorLayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2C24A838EBD4F3383A525B207AA68B4 /* BDMirrorLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BDMirrorLayer.swift; path = BDMirrorLayer/Classes/BDMirrorLayer.swift; sourceTree = "<group>"; };
+		B2C24A838EBD4F3383A525B207AA68B4 /* BDMirrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BDMirrorView.swift; path = BDMirrorView/Classes/BDMirrorView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA361824CA63823D7F0F520DDD536C35 /* Pods-BDMirrorLayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDMirrorLayer_Example-dummy.m"; sourceTree = "<group>"; };
 		BBF3B43A9644FE596CBC9AC924088E74 /* BDMirrorLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDMirrorLayer.release.xcconfig; sourceTree = "<group>"; };
 		CC38372570399912775FABC5E1490A60 /* Pods-BDMirrorLayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDMirrorLayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CC7A451DA15A7CE803BF88BDA173D851 /* BDMirrorLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDMirrorLayer-umbrella.h"; sourceTree = "<group>"; };
-		D75BFB4401B6BD6D88E904DDCF06094D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D75BFB4401B6BD6D88E904DDCF06094D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DA3BDB4EAB6557B1D25B83A96C2DF0FD /* Pods-BDMirrorLayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDMirrorLayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEA2402512A3216C8C976B466D6EC918 /* Pods-BDMirrorLayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDMirrorLayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FF3E3B3C9DEB68B9F33AD88DDBDC4D6D /* BDMirrorLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDMirrorLayer-prefix.pch"; sourceTree = "<group>"; };
@@ -197,7 +197,7 @@
 		DD10F25F2B8930B2A3D632E38C2A5383 /* BDMirrorLayer */ = {
 			isa = PBXGroup;
 			children = (
-				B2C24A838EBD4F3383A525B207AA68B4 /* BDMirrorLayer.swift */,
+				B2C24A838EBD4F3383A525B207AA68B4 /* BDMirrorView.swift */,
 				F9C06C1481B4B48BAE9C89AB55E7B6F7 /* Pod */,
 				8AA32633D1F987F9F7CEC017A9C20801 /* Support Files */,
 			);
@@ -208,7 +208,7 @@
 		F9C06C1481B4B48BAE9C89AB55E7B6F7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A25CE2791673E163AE9B7A456E24E6EC /* BDMirrorLayer.podspec */,
+				A25CE2791673E163AE9B7A456E24E6EC /* BDMirrorView.podspec */,
 				37D66ACF6A42DAAC2998FEBE082F1837 /* LICENSE */,
 				D75BFB4401B6BD6D88E904DDCF06094D /* README.md */,
 			);
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6E429BBDB9E84502C8923856FC151D /* BDMirrorLayer.swift in Sources */,
+				4C6E429BBDB9E84502C8923856FC151D /* BDMirrorView.swift in Sources */,
 				90855CD66E72FAED56A4C46F6D88B8C4 /* BDMirrorLayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,8 +559,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

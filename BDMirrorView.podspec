@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
 BDMirrorView is a UIView subclass, designed to make it easy to create \"mirrored floor\"-style reflections of views on iOS.\n\n  It uses CAReplicatorLayer and CAGradientLayer internally, and allows you to compose mirroring effects without relying on CPU-drawing. You may have noticed that Apple provides a Reflection sample project for this, but Apple's solution works only with images and involves fairly slow CPU-bound drawing to update the reflection, which renders it unsuitable for non-static content. BDMirrorView works in real-time on any view.
                        DESC
 
-  s.homepage         = 'https://github.com/viewDidAppear/BDMirrorLayer'
+  s.homepage         = 'https://github.com/viewDidAppear/BDMirrorView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Benjamin Deckys' => 'ben.kawabata@gmail.com' }
-  s.source           = { :git => 'https://github.com/viewDidAppear/BDMirrorLayer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/viewDidAppear/BDMirrorView.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  s.source_files = 'BDMirrorLayer/Classes/**/*'
+  s.source_files = 'BDMirrorView/Classes/**/*'
 
 end

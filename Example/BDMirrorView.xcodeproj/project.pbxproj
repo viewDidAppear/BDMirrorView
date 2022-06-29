@@ -32,17 +32,17 @@
 		364387651F4388A1C5B39424 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3DFC05F974F9DAF600D03218 /* Pods-BDMirrorLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDMirrorLayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-BDMirrorLayer_Tests/Pods-BDMirrorLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44024A48286C926500EBBF36 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* BDMirrorLayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDMirrorLayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* BDMirrorView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDMirrorView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* BDMirrorLayer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDMirrorLayer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* BDMirrorView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDMirrorView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AB48FECFE192A3947FEA8706 /* BDMirrorLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BDMirrorLayer.podspec; path = ../BDMirrorLayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB48FECFE192A3947FEA8706 /* BDMirrorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BDMirrorView.podspec; path = ../BDMirrorView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC6721041BCFC60B63BA36C0 /* Pods-BDMirrorLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDMirrorLayer_Example.release.xcconfig"; path = "Target Support Files/Pods-BDMirrorLayer_Example/Pods-BDMirrorLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C3E28E518F0C4742DD9659D4 /* Pods-BDMirrorLayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDMirrorLayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BDMirrorLayer_Tests/Pods-BDMirrorLayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5542E163FD5D31B9EB871B2 /* Pods_BDMirrorLayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDMirrorLayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,8 +106,8 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* BDMirrorLayer_Example.app */,
-				607FACE51AFB9204008FA782 /* BDMirrorLayer_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* BDMirrorView_Example.app */,
+				607FACE51AFB9204008FA782 /* BDMirrorView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				AB48FECFE192A3947FEA8706 /* BDMirrorLayer.podspec */,
+				AB48FECFE192A3947FEA8706 /* BDMirrorView.podspec */,
 				364387651F4388A1C5B39424 /* README.md */,
 				F5B74728AB1890D103E180BA /* LICENSE */,
 			);
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* BDMirrorLayer_Example */ = {
+		607FACCF1AFB9204008FA782 /* BDMirrorView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BDMirrorLayer_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BDMirrorView_Example" */;
 			buildPhases = (
 				684A5DF11C0C1A165E97E80A /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -179,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = BDMirrorLayer_Example;
+			name = BDMirrorView_Example;
 			productName = BDMirrorLayer;
-			productReference = 607FACD01AFB9204008FA782 /* BDMirrorLayer_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* BDMirrorView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* BDMirrorLayer_Tests */ = {
+		607FACE41AFB9204008FA782 /* BDMirrorView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BDMirrorLayer_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BDMirrorView_Tests" */;
 			buildPhases = (
 				02BA6A7EBF1685AEE68A2438 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -198,9 +198,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = BDMirrorLayer_Tests;
+			name = BDMirrorView_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* BDMirrorLayer_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* BDMirrorView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BDMirrorLayer" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BDMirrorView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -238,8 +238,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* BDMirrorLayer_Example */,
-				607FACE41AFB9204008FA782 /* BDMirrorLayer_Tests */,
+				607FACCF1AFB9204008FA782 /* BDMirrorView_Example */,
+				607FACE41AFB9204008FA782 /* BDMirrorView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -353,7 +353,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* BDMirrorLayer_Example */;
+			target = 607FACCF1AFB9204008FA782 /* BDMirrorView_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -528,7 +528,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDMirrorLayer_Example.app/BDMirrorLayer_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDMirrorView_Example.app/BDMirrorView_Example";
 			};
 			name = Debug;
 		};
@@ -547,14 +547,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDMirrorLayer_Example.app/BDMirrorLayer_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDMirrorView_Example.app/BDMirrorView_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BDMirrorLayer" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "BDMirrorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BDMirrorLayer_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BDMirrorView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BDMirrorLayer_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BDMirrorView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
