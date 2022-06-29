@@ -1,7 +1,7 @@
 # BDMirrorView
 A fast and efficient UIView subclass which renders its own reflection, live.
 
-![BDScrollBar_hero](https://user-images.githubusercontent.com/2734719/173232780-2569b55f-d8e1-49cc-bdbc-f0043f37e230.png)
+![BDMirrorView_hero](https://user-images.githubusercontent.com/2734719/176471037-12eb448e-46b6-452c-bb8c-100d5b378cbb.png)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://raw.githubusercontent.com/viewDidAppear/BDMirrorView/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/BDMirrorView.svg?style=for-the-badge)](http://cocoadocs.org/docsets/BDMirrorView)
