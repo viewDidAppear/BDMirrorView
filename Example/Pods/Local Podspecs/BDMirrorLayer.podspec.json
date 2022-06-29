@@ -1,0 +1,22 @@
+{
+  "name": "BDMirrorLayer",
+  "version": "0.1.0",
+  "summary": "A short description of BDMirrorLayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Benjamin Deckys/BDMirrorLayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Benjamin Deckys": "ben.kawabata@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Benjamin Deckys/BDMirrorLayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BDMirrorLayer/Classes/**/*"
+}

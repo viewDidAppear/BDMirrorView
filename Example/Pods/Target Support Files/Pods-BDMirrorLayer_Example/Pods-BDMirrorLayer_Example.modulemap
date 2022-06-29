@@ -1,0 +1,6 @@
+framework module Pods_BDMirrorLayer_Example {
+  umbrella header "Pods-BDMirrorLayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

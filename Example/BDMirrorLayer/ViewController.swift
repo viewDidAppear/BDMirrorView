@@ -8,17 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		guard let destination = segue.destination as? PreviewViewController else { return }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+		switch segue.identifier {
+			case "topRef":
+				destination.direction = 0
+			case "leftRef":
+				destination.direction = 1
+			case "bottomRef":
+				destination.direction = 2
+			case "rightRef":
+				destination.direction = 3
+			default:
+				break
+		}
+	}
 
 }
 

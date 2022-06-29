@@ -1,0 +1,6 @@
+framework module BDMirrorLayer {
+  umbrella header "BDMirrorLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

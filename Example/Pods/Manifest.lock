@@ -1,0 +1,16 @@
+PODS:
+  - BDMirrorLayer (0.1.0)
+
+DEPENDENCIES:
+  - BDMirrorLayer (from `../`)
+
+EXTERNAL SOURCES:
+  BDMirrorLayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BDMirrorLayer: 4c0480e4eff9892b2d81ed7f4954b01d6b5aba7c
+
+PODFILE CHECKSUM: 3054cb4b4b8b06197ec2c7d2faaf240d2725453f
+
+COCOAPODS: 1.11.3

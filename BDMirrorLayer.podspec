@@ -1,15 +1,7 @@
-#
-# Be sure to run `pod lib lint BDMirrorLayer.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'BDMirrorLayer'
+  s.name             = 'BDMirrorView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BDMirrorLayer.'
+  s.summary          = 'A live reflecting UIView using CAReplicatorLayer and CAGradientLayer'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +10,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+BDMirrorView is a UIView subclass, designed to make it easy to create \"mirrored floor\"-style reflections of views on iOS.\n\n  It uses CAReplicatorLayer and CAGradientLayer internally, and allows you to compose mirroring effects without relying on CPU-drawing. You may have noticed that Apple provides a Reflection sample project for this, but Apple's solution works only with images and involves fairly slow CPU-bound drawing to update the reflection, which renders it unsuitable for non-static content. BDMirrorView works in real-time on any view.
                        DESC
 
-  s.homepage         = 'https://github.com/Benjamin Deckys/BDMirrorLayer'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/viewDidAppear/BDMirrorLayer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Benjamin Deckys' => 'ben.kawabata@gmail.com' }
-  s.source           = { :git => 'https://github.com/Benjamin Deckys/BDMirrorLayer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://github.com/viewDidAppear/BDMirrorLayer.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'BDMirrorLayer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BDMirrorLayer' => ['BDMirrorLayer/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
